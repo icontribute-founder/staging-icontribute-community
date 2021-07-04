@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import ReactGA from "react-ga";
-import { useMediaQuery } from "react-responsive";
-import { MOBILE_SCREEN_SIZE } from "../constants/MediaQueries";
+//import { useMediaQuery } from "react-responsive";
+//import { MOBILE_SCREEN_SIZE } from "../constants/MediaQueries";
 import "../terms/privacypolicy.css";
 
 const HomeScreen = () => {
-  const isMobile = useMediaQuery({ maxWidth: MOBILE_SCREEN_SIZE });
+  //const isMobile = useMediaQuery({ maxWidth: MOBILE_SCREEN_SIZE });
   useEffect(() => {
     document.title = "iContribute - Privacy Policy";
     ReactGA.pageview(window.location.hash.substring(1)); // substring excludes the hash "#"
@@ -255,6 +255,7 @@ const HomeScreen = () => {
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmgAAAABCAIAAADl6cWlAAAAGklEQVQ4jWPs6OhgGAWjYBSMglEwCkYBcQAAjr8Bmt4dl10AAAAASUVORK5CYII="
             id="p5img1"
+            alt=""
           />
         </div>
 
