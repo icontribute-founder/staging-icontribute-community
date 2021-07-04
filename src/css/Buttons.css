@@ -1,0 +1,83 @@
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.hollow-yellow {
+  width: 180px;
+  height: 54px;
+  left: 0px;
+  top: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+
+  color: #212121;
+
+  border: 3px solid #ffc80a;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 17px;
+  text-align: center;
+  transition-duration: 300ms;
+}
+.hollow-yellow:hover {
+  background-color: #ffc80a;
+  color: white;
+  transition-duration: 300ms;
+}
+
+.solid-yellow {
+  width: 180px;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  border: 3px solid #ffc80a;
+  background-color: #ffc80a;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 16px;
+  text-align: center;
+  transition-duration: 300ms;
+}
+
+.solid-yellow:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 300ms;
+}
+
+.yellow-dot {
+  width: 25px;
+  height: 25px;
+  left: 708px;
+  top: 1224px;
+  background: #ffbc03;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+x-button {
+  width: 18px;
+  height: 18px;
+}
+
+.textbubble {
+  width: 518px;
+  height: 176px;
+
+  background: red;
+
+  box-shadow: 0px 4px 30px rgba(233, 233, 233, 0.51);
+  border-radius: 60px;
+}

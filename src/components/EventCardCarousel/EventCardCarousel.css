@@ -1,0 +1,11 @@
+.EventCardCarousel {
+  margin-top: 30px;
+}
+
+.CarouselItem {
+  user-select: none;
+}
+
+.CarouselItem > img {
+  max-width: 500px;
+}

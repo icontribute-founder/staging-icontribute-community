@@ -1,0 +1,131 @@
+.photoblock-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+}
+.photo-block-box {
+  width: 414px;
+  height: 292px;
+  text-align: center;
+}
+.photo-title,
+.photo-location,
+.photo-date,
+.photo-distance {
+  font-family: Nunito;
+  margin: 0;
+}
+
+.photo-block {
+  width: 373px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 4px 30px rgba(30, 29, 29, 0.379);
+}
+.mainblock-photo .photo-block img {
+  border-radius: 13px;
+  height: 50%;
+}
+
+.photo-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #026896;
+}
+.photo-location {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+.photo-date,
+.photo-distance {
+  font-weight: normal;
+  font-size: 15px;
+}
+.photo-icon {
+  height: 35px;
+  width: 35px;
+}
+.photo-infoblock {
+  text-align: left;
+}
+
+.photo-icon {
+  float: right;
+}
+.photo-distance {
+  display: inline-block;
+  float: right;
+}
+
+.getstarted {
+  text-align: right;
+}
+.getstarted h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+}
+.getstarted-button {
+  background: #ffbc03;
+  border-radius: 100px;
+}
+
+.photo-block .photo-wrapper {
+  width: 542px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.photo-block .photo-wrapper .photo-block-photo {
+  height: 298px;
+}
+.photo-block {
+  width: 628px;
+  height: 512px;
+  padding: 0;
+  position: relative;
+  box-shadow: 0px 4px 30px rgba(233, 233, 233, 0.51);
+}
+.photo-block .photo-infoblock {
+  margin: 0 40px;
+  margin-bottom: 30px;
+  width: 548px;
+  position: absolute;
+  bottom: 0;
+}
+
+.photo-block .photo-distance {
+  margin-top: 0;
+}
+.photo-block .photo-block-photo {
+  margin-top: 40px;
+}
+.photo-block h1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #026896;
+}
+.photo-block h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+.photo-block h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+}
+.photo-block h1,
+.photo-block h2,
+.photo-block h3 {
+  margin: 10px 0;
+}

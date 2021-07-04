@@ -1,0 +1,65 @@
+.sphotoblock-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sphoto-block-box {
+  width: 414px;
+  height: 292px;
+  text-align: center;
+}
+.sphoto-title,
+.sphoto-location,
+.sphoto-date,
+.sphoto-distance {
+  font-family: Nunito;
+  margin: 0;
+}
+
+.sphoto-block {
+  width: 373px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 4px 30px rgba(233, 233, 233, 0.51);
+}
+.sphoto-block img {
+  border-radius: 13px;
+}
+
+.sphoto-wrapper {
+  width: 373;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.sphoto-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #026896;
+}
+.sphoto-location {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+.sphoto-date,
+.sphoto-distance {
+  font-weight: normal;
+  font-size: 15px;
+}
+.sphoto-icon {
+  height: 35px;
+  width: 35px;
+}
+.sphoto-infoblock {
+  text-align: left;
+}
+
+.sphoto-icon {
+  float: right;
+}
+.sphoto-distance {
+  display: inline-block;
+  float: right;
+}

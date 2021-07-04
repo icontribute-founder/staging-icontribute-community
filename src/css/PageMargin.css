@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1000px) {
+  .main-container,
+  .photoblock-container,
+  .demoblock-container,
+  .partners-container,
+  .getintouch-container,
+  .watermark-text-container,
+  .footer-container,
+  .teamblock-container,
+  .AcrossGlobeBlock,
+  .FAQBlock,
+  .VideoBlock {
+    margin-top: 10px !important;
+  }
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.main-container,
+.photoblock-container,
+.demoblock-container,
+.partners-container,
+.getintouch-container,
+.watermark-text-container,
+.footer-container,
+.teamblock-container,
+.AcrossGlobeBlock,
+.FAQBlock,
+.VideoBlock {
+  margin-top: 100px;
+}
+
+.photoblock-container {
+  margin-top: 200px;
+}
+
+.site-container {
+  margin: 0 auto;
+}
+
+.site-margin {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.connect-container {
+  margin-top: 200px;
+}

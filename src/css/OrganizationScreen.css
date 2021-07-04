@@ -1,0 +1,193 @@
+.organization-page .main-container {
+  display: grid;
+  grid-template-columns: 500px 700px;
+  margin-bottom: 200px;
+}
+.organization-page .main-info {
+  text-align: right;
+}
+
+.organization-page .main-info h1,
+.organization-page .main-info p {
+  width: 500px;
+}
+
+.organization-photoblock .photo-block-box {
+  margin-left: 60px;
+}
+.organization-photoblock .photo-block {
+  width: 628px;
+  height: 512px;
+  padding: 0;
+  position: relative;
+  box-shadow: 0px 4px 30px rgba(233, 233, 233, 0.51);
+}
+
+.organization-photoblock .photo-block .photo-infoblock {
+  margin: 0 40px;
+  margin-bottom: 30px;
+  width: 548px;
+  position: absolute;
+  bottom: 0;
+}
+
+.organization-photoblock .photo-block .photo-distance {
+  margin-top: 0;
+}
+.organization-photoblock .photo-block .photo-block-photo {
+  margin-top: 40px;
+}
+.organization-photoblock .photo-block h1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #026896;
+}
+.organization-photoblock .photo-block h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+.organization-photoblock .photo-block h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+}
+.organization-photoblock .photo-block h1,
+.organization-photoblock .photo-block h2,
+.organization-photoblock .photo-block h3 {
+  margin: 10px 0;
+}
+
+.howitworks-header {
+  text-align: center;
+}
+
+.howitworks-header h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #133a4b;
+}
+.howitworks-header h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: #133a4b;
+}
+
+.howitworks-step-left .appstore img {
+  height: 47px;
+  width: 150px;
+}
+
+.step-left,
+.step-right {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+}
+.step-left .yellow-dot,
+.step-right .yellow-dot {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.step-left h1,
+.step-right h1,
+.step-center h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffbc03;
+}
+.step-right {
+  text-align: right;
+}
+
+.howitworks-step-left,
+.howitworks-step-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.howitworks-step-text-left h1,
+.howitworks-step-text-right h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #133a4b;
+  margin-bottom: 50px;
+}
+.howitworks-step-text-left h2,
+.howitworks-step-text-right h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.howitworks-step-text-left {
+  border-right: 1px solid #cdcdcd;
+  text-align: right;
+  padding-right: 64px;
+}
+
+.howitworks-step-text-right {
+  border-left: 1px solid #cdcdcd;
+  text-align: left;
+  padding-left: 64px;
+  padding-right: 20px;
+}
+
+.step-center {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.step4-wrapper {
+  text-align: center;
+}
+.step4-wrapper h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.step4-wrapper p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #133a4b;
+}
+
+/* .organization-photoblock .photo-block {
+  width: 628px;
+  height: 512px;
+}
+
+.organization-photoblock .photo-block .photo-block-photo {
+  width: 542px;
+  height: 298px;
+} */
+.howitworks-photoblock-wrapper {
+  margin-left: 64px;
+}
+.howitworks-photoblock-wrapper .sphoto-block-box {
+  margin-bottom: 40px;
+}

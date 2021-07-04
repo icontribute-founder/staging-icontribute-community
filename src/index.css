@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1000px) {
+  html {
+    background: linear-gradient(180deg, #a1d6e2, #fff 20%, #fff);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

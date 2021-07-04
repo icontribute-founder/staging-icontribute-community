@@ -1,0 +1,15 @@
+.SocialMediaBar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.SocialMediaBar-Link {
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.SocialMediaBar-Icon {
+  max-width: fit-content;
+}

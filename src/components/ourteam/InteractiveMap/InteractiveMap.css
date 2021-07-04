@@ -1,0 +1,21 @@
+.InteractiveMap {
+  display: flex;
+  justify-content: center;
+}
+
+.InteractiveMap-Globe {
+  margin-top: 50px;
+  height: 700px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  width: 60%;
+  border-radius: 60%;
+}
+
+.InteractiveMap-Popups {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.Globe-Circle {
+  cursor: pointer;
+}

@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1000px) {
+  .FooterBlock {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .FooterBlock .NavBarLogo {
+    margin-bottom: 40px;
+  }
+
+  .FooterBlock-Links-List {
+    list-style: none;
+    padding: 0;
+  }
+
+  .FooterBlock-Links-List li {
+    text-align: center;
+  }
+
+  .FooterBlock-Links-List li a {
+    padding: 0;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    color: #292929;
+  }
+
+  .FooterBlock-SocialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+
+  .FooterBlock-SocialLink {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  .FooterBlock-SocialIcon {
+    max-width: fit-content;
+  }
+
+  .FooterBlock-AppStores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+}
+
+.FooterBlock {
+  margin-bottom: 50px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  height: 467px;
+}
+
+.footer-logo {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-logo .NavBarLogo {
+  margin-bottom: 40px;
+}
+
+.footer-list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-list {
+  list-style: none;
+  margin: 60px;
+  padding: 0;
+}
+
+.footer-list li a {
+  padding: 0;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+  color: #292929;
+}
+
+.footer-appstore {
+  padding: 0;
+}
+
+.footer-appstore img {
+  width: 150px;
+  height: 47px;
+}
+
+.FooterBlock-Copyright {
+  text-align: center;
+}

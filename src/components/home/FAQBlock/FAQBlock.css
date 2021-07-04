@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1000px) {
+  .FAQBlock-header {
+    font-size: 36px !important;
+  }
+
+  .FAQBlock-desc {
+    font-size: 18px !important;
+    margin: 5px !important;
+  }
+
+  .FAQBlock-accordions {
+    margin-top: 50px !important;
+  }
+}
+
+.FAQBlock {
+  text-align: center;
+  position: relative;
+}
+
+.FAQBlock-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #133a4b;
+}
+
+.FAQBlock-desc {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.FAQBlock-link {
+  text-transform: none;
+  padding: 0;
+  color: #026896;
+  font-weight: 600;
+}
+
+.FAQBlock-accordions {
+  /* width: 95%; */
+  margin: 85px auto;
+  padding: 25px 50px;
+  padding-bottom: 50px;
+  box-shadow: 0px 4px 30px rgba(233, 233, 233, 0.51);
+  border: solid #f1f1f2 1px;
+  border-radius: 40px;
+  background-color: #fff;
+}

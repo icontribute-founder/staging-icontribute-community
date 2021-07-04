@@ -1,0 +1,73 @@
+.ProfilePopup {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  margin: 25px;
+  border-radius: 80px;
+  width: min-content;
+  min-width: 400px;
+
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.ProfilePopup-img {
+  padding: 10px;
+  height: 100px; /*<-- TODO*/
+  width: 100px; /*<-- TODO*/
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.ProfilePopup-transition-right-enter {
+  opacity: 0.01;
+  transform: translate(50px, 0);
+}
+
+.ProfilePopup-transition-right-enter-active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 400ms ease;
+}
+
+.ProfilePopup-transition-right-exit {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.ProfilePopup-transition-right-exit-active {
+  opacity: 0.01;
+  transform: translate(50px, 0);
+  transition: all 400ms ease;
+}
+
+.ProfilePopup-transition-left-enter {
+  opacity: 0.01;
+  transform: translate(-50px, 0);
+}
+
+.ProfilePopup-transition-left-enter-active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 400ms ease;
+}
+
+.ProfilePopup-transition-left-exit {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.ProfilePopup-transition-left-exit-active {
+  opacity: 0.01;
+  transform: translate(-50px, 0);
+  transition: all 400ms ease;
+}

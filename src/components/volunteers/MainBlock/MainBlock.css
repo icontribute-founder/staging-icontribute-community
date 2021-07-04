@@ -1,0 +1,40 @@
+.Volunteers-MainBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.Volunteers-MainBlock-Header {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #133a4b;
+}
+
+.Volunteers-MainBlock-Details {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #133a4b;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.Volunteers-MainBlock-AppstoreLink {
+  padding: 0;
+  margin: 0 5px;
+  width: 150px;
+  height: 50px;
+}
+
+.Volunteers-MainBlock-AppstoreLink img {
+  width: 100%;
+  height: 100%;
+}
+
+.Volunteers-MainBlock-Video {
+  width: 100%;
+  height: 350px;
+  margin-left: 100px;
+}

@@ -1,0 +1,36 @@
+.watermark-text-container {
+  position: relative;
+}
+
+.watermark-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #cdcdcd;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.watermark-main {
+  position: absolute;
+  width: 725px;
+  height: 210px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: #133a4b;
+}

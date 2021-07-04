@@ -1,0 +1,53 @@
+.teamblockcall-container {
+  text-align: center;
+  margin-top: 200px;
+}
+.teamblockcall-container h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #133a4b;
+}
+.teamblockcall-container p {
+  margin: 32px;
+}
+
+.zoomcall-grid1 {
+  display: grid;
+  grid-template-areas: "grid1 grid3 " "grid2 grid3 ";
+  grid-template-columns: 350px 763px;
+  grid-template-rows: 170px 202px;
+  grid-gap: 15px;
+}
+
+.zoomcall-grid2 {
+  margin-top: 15px;
+  display: grid;
+  grid-template-areas: "grid4 grid5" "grid4 grid6";
+  grid-template-columns: 666px 440px;
+  grid-template-rows: 157px 175px;
+  grid-gap: 15px;
+}
+
+#photoGrid1 {
+  grid-area: grid1;
+  background-image: url("../../../images/photoGrid/grid1.png");
+}
+#photoGrid2 {
+  grid-area: grid2;
+  background-image: url("../../../images/photoGrid/grid2.png");
+}
+#photoGrid3 {
+  grid-area: grid3;
+  background-image: url("../../../images/photoGrid/grid3.png");
+}
+#photoGrid4 {
+  grid-area: grid4;
+}
+#photoGrid5 {
+  grid-area: grid5;
+}
+#photoGrid6 {
+  grid-area: grid6;
+}

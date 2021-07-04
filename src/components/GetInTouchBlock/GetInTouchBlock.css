@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1000px) {
+  .GetInTouchBlock-Header {
+    font-size: 24px !important;
+  }
+
+  .GetInTouchBlock-Subheader {
+    font-size: 18px !important;
+  }
+
+  .GetInTouchBlock-Image {
+    max-width: 120px;
+  }
+}
+
+.GetInTouchBlock {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.GetInTouchBlock-Header,
+.GetInTouchBlock-Subheader {
+  margin: 35px;
+  font-weight: bold;
+  color: #133a4b;
+}
+
+.GetInTouchBlock-Header {
+  font-size: 2em;
+}
+
+.GetInTouchBlock-Subheader {
+  font-size: 1.5em;
+}

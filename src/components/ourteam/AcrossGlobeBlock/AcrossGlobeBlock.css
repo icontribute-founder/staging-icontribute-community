@@ -1,0 +1,22 @@
+.AcrossGlobeBlock {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.AcrossGlobeBlock-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #133a4b;
+}
+
+.AcrossGlobeBlock-subheader {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 710px;
+  margin: auto;
+  color: #133a4b;
+}

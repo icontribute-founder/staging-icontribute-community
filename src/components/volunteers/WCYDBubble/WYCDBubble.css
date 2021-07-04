@@ -1,0 +1,64 @@
+.WYCD-bubble {
+  width: 518px;
+  height: 176px;
+  background: #ffffff;
+  /* background: #FFFFFF; */
+  box-shadow: 0px 4px 30px rgba(233, 233, 233, 0.51);
+  border-radius: 60px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 4fr 12fr;
+  color: #b4b4b4;
+}
+.WYCD-bubble:hover {
+  color: #133a4b;
+}
+
+.WYCD-bubble:hover .WCYD-icon-dark {
+  z-index: 1;
+}
+
+.WYCD-image img {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.bubble-text {
+  height: 54%;
+  margin: auto;
+  margin-right: 38px;
+}
+.bubble-text h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+.bubble-text p {
+  margin-right: 62px;
+}
+
+.WCYD-icon-container {
+  position: relative;
+}
+
+.WCYD-icon {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.WCYD-icon-dark {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}

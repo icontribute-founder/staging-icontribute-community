@@ -1,0 +1,49 @@
+.Navbar {
+  margin-top: 50px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-content .NavBarLogo {
+  display: inline-block;
+}
+
+.navbar-links {
+  display: inline-block;
+  padding-right: 100px;
+}
+
+.navbar-links {
+  vertical-align: top;
+  padding-right: 0;
+}
+
+.navbar-link {
+  padding: 0;
+  margin-right: 100px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #736b6b;
+
+  /* hover setup */
+  background-image: linear-gradient(#ffbc03, #ffbc03),
+    linear-gradient(rgb(255, 255, 255, 0), rgb(255, 255, 255, 0));
+  background-size: 0 2px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-link:hover,
+.navbar-link.selected {
+  background-size: 100% 2px, auto;
+}
+
+#ourteam {
+  margin-right: 0;
+}
